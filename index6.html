@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>Vue Components Communication Quiz</title>
+  </head>
+  <body>
+    <div class="" id="app">
+      <child-component v-bind:propsdata="message"></child-component>
+      <sibling-component  v-bind:propsdata="anotherMessage"></sibling-component>
+    </div>
+    <script src="https://cdn.jsdelivr.net/npm/vue@2.5.2/dist/vue.js">
+    </script>
+    <script src="app.js"></script>
+
+  </body>
+</html>
